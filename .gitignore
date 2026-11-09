@@ -1,0 +1,10 @@
+# basic shit
+/config.local
+/tmp
+/cache
+# dvc + data
+data/raw/*
+/.dvc/config
+/.dvc/.gitignore
+.dvc
+!data/raw/.gitkeep

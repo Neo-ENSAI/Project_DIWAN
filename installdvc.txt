@@ -1,0 +1,2 @@
+uv run dvc remote add -d s3://[votre lien s3]
+uv run dvc import-url     s3://[votre lien s3]   data/raw/MCsimulations
