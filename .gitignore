@@ -8,3 +8,4 @@ data/raw/*
 /.dvc/.gitignore
 .dvc
 !data/raw/.gitkeep
+.env
