@@ -13,13 +13,13 @@ dependencies = [
     "opencv-python>=5.0.0.93",
     "pandas>=3.1.1",
     "pathlib>=1.0.1",
+    "s3fs>=2026.9.0",
     "scikit-image>=0.26.0",
+    "scikit-learn>=1.9.1",
     "simpleitk>=2.5.7",
     "torch>=2.15.0",
 ]
 
-[project.scripts]
-project-diwan = "project_diwan:main"
 
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
@@ -28,4 +28,8 @@ build-backend = "uv_build"
 [dependency-groups]
 dev = [
     "dvc[s3]>=3.67.1",
+    "ipykernel>=7.4.0",
 ]
+
+[tool.uv]
+package = false
